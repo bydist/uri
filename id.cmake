@@ -4,11 +4,12 @@ set(version 0.1.0)
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
     MAINTAINER_EMAIL "callu.david@gmail.com"
-    VERSION ${version}-1
+    VERSION ${version}-2
     ABI ${version}
     )
 
 byd__package__download_info(${package}
-    URL "https://github.com/ledocc/uri/archive/0.1.0.tar.gz"
-    URL_HASH SHA1=217021d9b30e9e3685baa5f715ec9126ac972592
+    GIT_REPOSITORY "https://github.com/ledocc/uri"
+    GIT_TAG ${version}
+    GIT_CONFIG submodule.fetchJobs=${BYD__OPTION__JOBS}
 )
