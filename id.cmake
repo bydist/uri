@@ -1,10 +1,10 @@
 set(package uri)
-set(version 0.1.0)
+set(version 0.2.1)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
     MAINTAINER_EMAIL "callu.david@gmail.com"
-    VERSION ${version}-2
+    VERSION ${version}-1
     ABI ${version}
     )
 
