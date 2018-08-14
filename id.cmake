@@ -1,5 +1,5 @@
 set(package uri)
-set(version 0.2.1)
+set(version 0.3.0)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
